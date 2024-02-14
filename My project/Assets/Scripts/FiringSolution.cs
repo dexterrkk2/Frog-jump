@@ -58,7 +58,10 @@ public class FiringSolution
         }
         else
         {
-            ttt = Mathf.Min(time0, time1);
+            //Short
+            //ttt = Mathf.Min(time0, time1);
+            //Long
+            ttt = Mathf.Max(time0, time1);
         }
 
         return ttt;
